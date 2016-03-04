@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="2048.js"></script>
+</head>
+<body>
+    <header>
+        ↑(W)/↓(S)/←(A)/→(D)控制方向
+    </header>
+    <article>
+        <div id="point">
+            <div id="score">总分数：</div>
+            <div id="max">当前最大数：</div>
+            <div id="time">用时：</div>
+        </div>
+        <div id="wrap">
+            <div id="content">
+                <div class="box" id="div1"></div>
+                <div class="box" id="div2"></div>
+                <div class="box" id="div3"></div>
+                <div class="box" id="div4"></div>
+                <div class="box" id="div5"></div>
+                <div class="box" id="div6"></div>
+                <div class="box" id="div7"></div>
+                <div class="box" id="div8"></div>
+                <div class="box" id="div9"></div>
+                <div class="box" id="div10"></div>
+                <div class="box" id="div11"></div>
+                <div class="box" id="div12"></div>
+                <div class="box" id="div13"></div>
+                <div class="box" id="div14"></div>
+                <div class="box" id="div15"></div>
+                <div class="box" id="div16"></div>
+            </div>
+            <div id="control">
+                <input id="start" type="button" value="开始" onclick="init()">
+                <input id="restart" type="button" value="重新开始">
+            </div>
+        </div>
+        <div id="attach">
+            <div id="direction"></div>
+            <div id="danger"></div>
+            <div id="temp"></div>
+        </div>
+    </article>
+    <footer>
+        <small>by:小猫咪  喵:-D</small>
+    </footer>
+</body>
+</html>
