@@ -1,0 +1,259 @@
+html,body,ul{
+    margin: 0;
+    padding:0;
+    font-family:"Microsoft Yahei",cursive;
+}
+body{
+    background-color: #000;
+}
+ul{
+    list-style: none;
+}
+nav>ul{
+    position: fixed;
+    width: 120px;
+    top:25px;
+    left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav a{
+     color: #fff;
+     text-decoration: none;
+ }
+nav a:hover{
+    color: #ff0000;
+}
+nav li ul{
+    display: none;
+    position: relative;
+    left: 15px;
+}
+#introduce{
+    width: 65%;
+    border:1px solid #999;
+    background-color: #ffebc7;
+    position: absolute;
+    left: 50%;
+    top:10%;
+    transform: translateX(-50%);
+    padding: 15px;
+    border-radius: 20px;
+    z-index: 10;
+    display: none;
+}
+#skill{
+    display: none;
+}
+#skill div{
+    width: 50%;
+    border:1px solid #999;
+    background-color: #ffebc7;
+    position: absolute;
+    left: 50%;
+    top:10%;
+    transform: translateX(-50%);
+    padding: 15px;
+    border-radius: 20px;
+    z-index: 10;
+    display: none;
+}
+.close{
+    position: absolute;
+    width: 15px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#desk{
+    width: 75%;
+    height: 80%;
+    background-color: #ccc;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#banker{
+    position: absolute;
+    top:5px;
+    left: 10%;
+    width: 80%;
+    background-color: #000000;
+    height: 30%;
+}
+#player{
+    position: absolute;
+    bottom:5px;
+    left: 10%;
+    width: 80%;
+    background-color: #000000;
+    height: 30%;
+}
+.poker img{
+    position: absolute;
+    height: 100%;
+    /*display: none;*/
+}
+.poker img:nth-child(2){
+    left: 15%;
+}
+.poker img:nth-child(3){
+    left: 30%;
+}
+.poker img:nth-child(4){
+    left: 45%;
+}
+.poker img:nth-child(5){
+    left: 60%;
+}
+.points{
+    position: absolute;
+    right: 2%;
+    top: 30%;
+    width: 60px;
+    height: 30%;
+    border:3px solid #0eaf53;
+    color: #0eaf53;
+    background-color: #000;
+    text-align: center;
+    font-size: xx-large;
+    display: none;
+}
+#playBet{
+    position: absolute;
+    right: 0;
+    width: 120px;
+    height: 20%;
+    border:2px solid #c90000;
+    color: #c90000;
+    background-color: #000;
+    text-align: center;
+    /*display: none;*/
+}
+#insurance{
+    position: absolute;
+    top:35%;
+    left: 20%;
+    height: 30%;
+    width: 60%;
+    font-size: 22px;
+    display: none;
+}
+#insurance button{
+    width: 80px;
+    height: 30px;
+    border:0;
+    background-color: #000;
+    color: #fff;
+}
+.result div{
+    position: absolute;
+    top:35%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    background-color: black;
+    color: #ff563c;
+    text-align: center;
+    font-size: xx-large;
+    display: none;
+}
+#ok{
+    position: absolute;
+    top:45%;
+    left: 45%;
+    width: 10%;
+    height: 10%;
+    display: none;
+}
+#ok button{
+    width:100%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    border:0;
+    border-radius: 15%;
+    font-size: xx-large;
+}
+#choice{
+    position: absolute;
+    top:45%;
+    left: 20%;
+    width: 60%;
+    height: 10%;
+    text-align: center;
+    display: none;
+}
+#choice button{
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    font-size: xx-large;
+    background-color: #000;
+    margin: 0 20px;
+    color:#fff;;
+}
+#choice button:nth-child(1){
+   border:3px solid #0eaf53;
+}
+#choice button:nth-child(2){
+    border:3px solid #ce4718;
+}
+#choice button:nth-child(3){
+    border:3px solid #c90000;
+}
+#wager{
+    position: absolute;
+    top:35%;
+    left: 20%;
+    width: 60%;
+    height: 40%;
+    text-align: center;
+}
+#bet div{
+    height: 30px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+#bet div:nth-child(1){
+    border:5px solid #2882ce;
+}
+#bet div:nth-child(2){
+    border:5px solid #ce4718;
+}
+#bet div:nth-child(3){
+    border:5px solid #0eaf53;
+}
+#bet div:nth-child(4){
+    border:5px solid #c90000;
+}
+#bet div:nth-child(5){
+    border:5px solid #d1c825;
+}
+#wager p{
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 4px 0;
+}
+#wager span{
+    color:#ff0000;
+    font-weight: bold;
+}
+#wager button{
+    width: 120px;
+    height: 30px;
+    background-color: #000;
+    color:#fff;
+    border:2px solid #ff0000;
+    font-weight: bold;
+    cursor: pointer;
+}

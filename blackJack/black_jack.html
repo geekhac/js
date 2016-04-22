@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>black_jack</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="blackJack.js"></script>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#introduce">玩法介绍</a></li>
+        <li><a href="#skill">游戏技巧</a>
+            <ul>
+                <li><a href="#skill">障眼法</a></li>
+                <li><a href="#skill">姜太公钓鱼法</a></li>
+                <li><a href="#skill">补救法</a></li>
+                <li><a href="#skill">分牌时机</a></li>
+                <li><a href="#skill">双倍的利用</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<div id="introduce">
+    <img class="close" src="images/close.png" alt="close">
+    <div>
+        <h2>玩法介绍</h2>
+        <p>21点  又名黑杰克（Black Jack），起源于法国，已流传到世界各地。现在在世界各地的赌场中都可以看到二十一点，随着互联网的发展，二十一点开始走向网络时代。该游戏由2到6个人玩，使用除大小王之外的52张牌，游戏者的目标是使手中的牌的点数之和不超过21点且尽量大。有着悠久的历史。</p>
+        <p>
+            21点一般用到1-8副牌。庄家给每个玩家发两张牌，一张牌面朝上（叫明牌），一张牌面朝下（叫暗牌）；给自己发两张牌，一张暗牌，一张明牌。大家手中扑克点数的计算是：K、Q、J和10牌都算作10点。A 牌既可算作1点也可算作11点，由玩家自己决定。其余所有2至9牌均按其原面值计算。首先玩家开始要牌，如果玩家拿到的前两张牌是一张A和一张10点牌，就拥有黑杰克（Black jack）；此时，如果庄家没有黑杰克，玩家就能赢得2倍的赌金（1赔2）。如果庄家的明牌有一张A，则玩家可以考虑买不买保险，金额是赌筹的一半且保险金不予退还。如果庄家是blackjack，那么玩家拿回投注金额；如果庄家没有blackjack则玩家继续游戏。没有黑杰克的玩家可以继续拿牌，可以随意要多少张。目的是尽量往21点靠，靠得越近越好，最好就是21点了。在要牌的过程中，如果所有的牌加起来超过21点，玩家就输了——叫爆掉(Bust)，游戏也就结束了。假如玩家没爆掉，又决定不再要牌了，这时庄家就把他的那张暗牌打开来。一般到17点或17点以上不再拿牌，但也有可能15到16点甚至12到13点就不再拿牌或者18到19点继续拿牌。假如庄家爆掉了，那他就输了。假如他没爆掉，那么你就与他比点数大小，大为赢。一样的点数为平手，你可以把你的赌注拿回来。
+        </p>
+    </div>
+</div>
+<div id="skill">
+    <div>
+        <img class="close" src="images/close.png" alt="close">
+        <h2>游戏技巧</h2>
+        <h3>障眼法</h3>
+        <p>这种方法主要适合于闲家，而且在众多玩家参与的时候适用。</p>
+        <p>一般在闲家明牌是10点的时候，如果牌底是3~7点，一般拿到这种点数特别难受，如果要牌，有50%的机率会暴，因为闲家暴点是100%输，不要牌可能也会输，我暂且把它称为尴尬点数。这时候，闲家如果观察到别的闲家点数都比较大，而且都不要牌的情况下，可以跟着不要。这样一来，就会给庄家很大的压力，以为每一位闲家手中的牌都是比较大的点数，如果庄家同样拿着尴尬点数，这种情况只能逼着庄家要牌，很明了，无形中所用的这个障眼法是把风险转移给了庄家，输赢靠天定了，看哪个运气好了，若庄家爆了，则闲家赢。</p>
+    </div>
+    <div>
+        <img class="close" src="images/close.png" alt="close">
+        <h3>姜太公钓鱼法</h3>
+        <p>这种方法主要适合于庄家。</p>
+        <p>顾名思义，姜太公钓鱼，愿者上钩。其实这种方法是相当简单的。一般在当庄时候就可以占住有利的地势，在等闲家拿完牌以后观察闲家的点数和下注再作决定。闲家的点数在大部分情况下我们是可以猜出大概，特别是在暴点的情况下，一般都是可以看得出地。闲家爆点，这种情况对庄家特别有利，这时候庄家是稳操胜券，千万别有赢了就好那种心理，这时候庄家可以随便要牌，坐镇等着赢钱，说不定就有机会要到一个5小龙，6小龙呢。当然如果是在众多玩家参与的情况下，庄家就要根据实际情况，下注的多少来综合分析，来决定自己是否要牌。</p>
+    </div>
+    <div>
+        <img class="close" src="images/close.png" alt="close">
+        <h3>补救法</h3>
+        <p>这种方法庄家闲家都适用。</p>
+        <p>所谓补救，就是拿到的是前面所提到的尴尬点数，输地可能性极大，在明知道牌点数就比对手点数小的情况下，我们只能要牌，因为不要也是输，而要牌还有一线希望是赢，所以我们能选择的就是奔那一线希望，寄希望总比放弃希望好。</p>
+    </div>
+    <div>
+        <img class="close" src="images/close.png" alt="close">
+        <h3>分牌时机[本游戏未涉及]</h3>
+        <p>在21点里，遇到两张牌相同的点数，是可以分牌的。一般在拿到尴尬点数的时候，最好不要分牌，因为，那样是把一个难题目变成了两个难题。一般情况下，最好的分牌牌形是AA。因为这点分牌以后拿到21点的机率是两个4/13，因为在所有牌里面，代表10点的有4张牌，10、J、Q、K。它的胜算率最大的可能是4倍。不分即使拿到5小龙，它的最大胜算率也只有3倍。而且这种概率小比分牌得21点的概率小得多。当然很多情况还可以特殊情况特殊对待。</p>
+    </div>
+    <div>
+        <img class="close" src="images/close.png" alt="close">
+        <h3>双倍的利用</h3>
+        <p>一般情况下，大多数玩家都比较熟悉这种双倍有效地利用。一般在两张牌点数在10点或者11点的情况下，利用双倍比较合适。因为双倍是限制我们要牌，我们只能要一张，我们要一张牌当然是要机率最大的那一种，这时利用还是利用那个4/13的机率问题，要代表10分的牌，这个机率比较大，所以胜算的情况才会多。</p>
+    </div>
+</div>
+
+<div id="desk">
+    <div id="banker">
+        <div class="poker">
+        </div>
+        <div class="result">
+            <div>Black Jack</div>
+            <div>Win</div>
+            <div>Lose</div>
+            <div>Push</div>
+            <div>Bust</div>
+            <div>five Dragon</div>
+        </div>
+        <div class="points">
+        </div>
+    </div>
+    <div id="player">
+        <div class="poker">
+        </div>
+        <div class="result">
+            <div>Black Jack</div>
+            <div>Win</div>
+            <div>Lose</div>
+            <div>Push</div>
+            <div>Bust</div>
+            <div>five Dragon</div>
+        </div>
+        <div id="playBet">
+            Bet : <span></span>
+        </div>
+        <div class="points">
+        </div>
+    </div>
+    <div id="insurance">
+        <p>Do you want to buy insurance?</p>
+        <button> Yes</button>
+        <button> No</button>
+    </div>
+    <div id="ok">
+        <button>ok</button>
+    </div>
+    <div id="choice">
+        <button>start</button>
+        <button>hit</button>
+        <button>double</button>
+    </div>
+    <div id="wager">
+        <div id="bet">
+            <div>5</div>
+            <div>10</div>
+            <div>25</div>
+            <div>100</div>
+            <div>reset</div>
+        </div>
+        <div>
+           <p>Your Bet $：<span>0</span></p>
+           <p>Credits $:<span>100</span></p>
+        </div>
+        <button>Place your bet</button>
+    </div>
+</div>
+</body>
+</html>
